@@ -1,0 +1,45 @@
+.home_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9em 7em;
+    position: sticky;
+    top: 0;
+}
+
+.home_nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.home_nav ul li {
+    list-style: none;
+    margin: 0 0.8em;
+}
+
+.home_nav ul li a {
+    text-decoration: none;
+    color: var(--home_text_color);
+    transition: color 0.5s ease;
+    font-size: 0.85em;
+}
+
+.home_nav ul li:hover a {
+    color: var(--post_home_tag_color);
+}
+
+#home_selected {
+    color: var(--post_home_tag_color);
+}
+
+#selected {
+    color: var(--shop_button_badge_color);
+}
+
+.stickytrue {
+    background-color: var(--shop_button_badge_color);
+    opacity: 0.9;
+}

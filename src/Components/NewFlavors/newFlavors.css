@@ -1,0 +1,39 @@
+.new_flavors_container {
+    width: 100%;
+    min-height: 120vh;
+    height: fit-content;
+    padding: 7em 0;
+    
+    /* border: 1px solid red; */
+}
+
+.newFlavors_content { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 11em;
+    
+    /* border: 1px solid blue; */
+}
+
+.newFlavors_content h3 {
+    font-size: 3em;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5em;
+}
+
+.new_flavors {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    overflow: hidden;
+    gap: 1em;
+    align-items: center;
+
+    /* border: 1px solid orange; */
+}

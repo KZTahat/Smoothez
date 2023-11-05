@@ -1,0 +1,116 @@
+.title_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 130px;
+    padding: 0 7em;
+}
+
+.title_header .contact_info {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 33%;
+}
+
+.title_header .contact_info span {
+    color: var(--home_text_color);
+    font-size: 0.9em;
+}
+
+.title_header .contact_info span a {
+    text-decoration: none;
+    color: var(--home_text_color);
+    transition: color 0.4s ease;
+}
+
+.title_header .contact_info span a:hover {
+    color: var(--post_home_tag_color);
+}
+
+.title_header .title_main_title a {
+    text-decoration: none;
+}
+
+.title_header .input_field {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 40px;
+    width: 200px;
+    padding: 0.2em 1em;
+}
+
+.title_header .input_field input {
+    border: none;
+    width: 85%;
+    padding-left: 1em;
+}
+
+.title_header .input_field input:focus {
+    outline: none;
+    caret-color: black;
+}
+
+.title_header .input_field i {
+    background-color: var(--home_text_color);
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    font-weight: 600;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.title_header .input_field i:hover {
+    color: var(--post_home_tag_color);
+}
+
+.title_header .title_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title_header .title_icons a {
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    margin-right: 0.3em;
+}
+
+.title_header .title_icons a i {
+    font-size: 1.6em;
+    margin: 0.1em;
+    color: var(--home_text_color);
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.title_header .title_icons a i:hover {
+    color: var(--post_home_tag_color);
+}
+
+.title_header .title_icons a span {
+    font-size: 0.8em;
+    background-color: var(--home_button_badge_color);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    width: 85%;
+    border-top: 1px solid #ffffff3b;
+}

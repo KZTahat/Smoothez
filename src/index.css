@@ -1,0 +1,20 @@
+:root {
+  --home_background_color: #77B1BC;
+  --nav_home_background_color: #76aa6f;
+  --home_button_badge_color: #f8c453;
+  --home_text_color: #FFFFFF;
+  --post_home_tag_color: #E9DA5D;
+  --light_gray_text_color: #7f7f7f;
+  --shop_button_badge_color: #76AA6F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+} 

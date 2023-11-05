@@ -1,0 +1,59 @@
+.peopleSay_container {
+    width: 100%;
+    min-height: 90vh;
+    height: fit-content;
+    padding: 7em 10em;
+    display: inline;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../assets/Images/post_header/paper_like_background.jpg);
+    
+    /* border: 1px solid red; */
+}
+
+.peopleSay_content {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+
+    /* border: 1px solid orange; */
+}
+
+.peopleSay_content h3 {
+    font-size: 3em;
+}
+
+.testimonies_cards {
+    position: absolute;
+    bottom: 0;
+    left: calc(-1000px * var(--currentSlide));
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1000px);
+    transition: 0.8s;
+}
+
+.peopleSay_dot {
+    position: absolute;
+    bottom: 0;
+}
+
+.peopleSay_dot span{
+    color: var(--light_gray_text_color);
+}
+
+.peopleSay_dot span:hover {
+    color: #616161;
+}
+
+#peopleSay_selectedSlide {
+    color: var(--shop_button_badge_color);
+}
